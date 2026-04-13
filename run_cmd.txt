@@ -1,0 +1,1 @@
+PS E:\Low_Level_Design_CPP\Desgin Google Docs> g++ -std=c++23 src\desgin_google_docs.cpp -I include -o desgin_google_docs.exe
