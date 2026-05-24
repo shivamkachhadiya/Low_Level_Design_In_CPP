@@ -16,6 +16,8 @@ include_directories(
 
 add_executable(design_google_docs
         "Desgin Google Docs/src/desgin_google_docs.cpp"
+        Observer.cpp
+        Observer_Desgin_Pattern/Observer.cpp
 )
 
 # =========================
