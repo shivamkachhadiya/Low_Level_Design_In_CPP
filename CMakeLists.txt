@@ -18,6 +18,7 @@ add_executable(design_google_docs
         "Desgin Google Docs/src/desgin_google_docs.cpp"
         Observer.cpp
         Observer_Desgin_Pattern/Observer.cpp
+        Decorator_Desgin_Pattern/Decorator.cpp
 )
 
 # =========================
