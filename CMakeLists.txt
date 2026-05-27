@@ -19,6 +19,7 @@ add_executable(design_google_docs
         Observer.cpp
         Observer_Desgin_Pattern/Observer.cpp
         Decorator_Desgin_Pattern/Decorator.cpp
+        Notification_Engine_System_Desgin/Notification.cpp
 )
 
 # =========================
