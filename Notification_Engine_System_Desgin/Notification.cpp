@@ -8,7 +8,7 @@
 using namespace std;
 
 class IMessage {
-public:                         // Decorator ka base. Har message ke paas getContent() hona chahiye — rule.
+public:                         // Decorato vr ka base. Har message ke paas getContent() hona chahiye — rule.
     virtual string getContent() = 0;
     virtual ~IMessage() {}
 };
