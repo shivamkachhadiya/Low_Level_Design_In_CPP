@@ -22,6 +22,7 @@ add_executable(design_google_docs
         Notification_Engine_System_Desgin/Notification.cpp
         Command_Design_Pattern/Command_Design.cpp
         Adapter_Design_Pattern/Adapter_Design_Pattern.cpp
+        Facade_Design_Pattern/Facade_Design_Pattern.cpp
 )
 
 # =========================
