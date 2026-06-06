@@ -24,6 +24,11 @@ add_executable(design_google_docs
         Adapter_Design_Pattern/Adapter_Design_Pattern.cpp
         Facade_Design_Pattern/Facade_Design_Pattern.cpp
         Spotify_Desgin_Pattern/Spotify.cpp
+        Builder_Design_Pattern/Build.cpp
+        Builder_Design_Pattern/Build.h
+        Builder_Design_Pattern/Build.cpp
+        Builder_Design_Pattern/Build.h
+        Builder_Design_Pattern/Build.cpp
 )
 
 # =========================
