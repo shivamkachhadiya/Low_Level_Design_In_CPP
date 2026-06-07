@@ -29,6 +29,7 @@ add_executable(design_google_docs
         Builder_Design_Pattern/Build.cpp
         Builder_Design_Pattern/Build.h
         Builder_Design_Pattern/Build.cpp
+        Proxy_Design_Pattern/NetFlix.cpp
 )
 
 # =========================
