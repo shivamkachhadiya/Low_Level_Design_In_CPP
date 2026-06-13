@@ -33,6 +33,7 @@ add_executable(design_google_docs
         Chain_Of_Responsibility/COR.cpp
         State_Desgin_Pattern/State.cpp
         Composite_Design_Pattern/Composite.cpp
+        " Payment Gateway/ Payment.cpp"
 )
 
 # =========================

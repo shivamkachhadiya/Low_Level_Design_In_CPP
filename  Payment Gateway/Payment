@@ -1,0 +1,35 @@
+
+Real Life — Payment Gateway
+Tu Swiggy pe order kiya — payment karna hai.
+Options hain:
+UPI
+Credit Card
+Debit Card
+Net Banking
+Wallet
+Tu UPI select kiya — payment process hua — success ya failure.
+
+Kaun se patterns use honge:
+Strategy  → har payment method alag algorithm
+Factory   → payment method object banana
+Observer  → payment status change pe notify
+Facade    → sab ek simple interface se
+Singleton → PaymentLogger — ek hi hoga
+
+Classes jo banegi:
+IPaymentStrategy     → base — pay()
+UPIPayment           → UPI se pay
+CreditCardPayment    → card se pay
+WalletPayment        → wallet se pay
+
+PaymentFactory       → strategy banata hai
+PaymentLogger        → Singleton — log karta hai
+PaymentObserver      → notify karta hai
+PaymentProcessor     → Facade — sab coordinate karta hai
+
+Final Output:
+[LOG] Payment initiated : 500 via UPI
+[NOTIFY] Payment processing...
+✅ UPI Payment successful : 500
+[NOTIFY] Payment successful!
+[LOG] Payment completed : 500 via UPI
